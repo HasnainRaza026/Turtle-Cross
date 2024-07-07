@@ -23,7 +23,7 @@ class Text:
         self.level_instance.write(
             f"Level: {self.level}", align="center", font=('Courier', 20, 'bold'))
 
-    def game_over(self):  # <---------- Not working, idk why
+    def game_over(self):
         self.gameover_instance.clear()
         self.gameover_instance.write(
             "Game Over", align="center", font=('Courier', 30, 'bold'))

@@ -55,7 +55,8 @@ while True:
     vehicle.vehicle_move()
 
     if vehicle_turtle_collision():
-        text.game_over()  # <---------- Not working, idk why
+        text.game_over()
+        screen.update()
         time.sleep(2)
         break
 
